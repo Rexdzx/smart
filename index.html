@@ -38,11 +38,14 @@
                     data-aos-duration="900">
                     <h1>Lorem ipsum dolor sit amet.</h1>
                     <h2 class="py-4">Every day brings with it a fresh set of learning possibilities.</h2>
-                    <a href="#" class="btn-get-started scrollto">Get Started</a>
-                    <a href="#" class="btn-learn-more scrollto">Learn More</a>
+                    <div class="buttons">
+                        <a href="#" class="btn-get-started scrollto">Get Started</a>
+                        <a href="#" class="btn-learn-more scrollto">Learn More</a>
+                    </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img mt-4" data-aos="fade-left">
-                    <img src="assets/img/img.png" class="img-fluid ms-5" alt="" style="max-width: 90%;">
+                <div class="col-lg-6 order-1 order-lg-2 hero-img mt-4"
+                    style="display: flex; align-items: center; justify-content: center;" data-aos="fade-left">
+                    <img src="assets/img/img.png" class="img-fluid" alt="" style="max-width: 90%;">
                 </div>
             </div>
         </div>
@@ -68,14 +71,73 @@
                 </div>
             </div>
         </section>
+        <!-- <section id="portfolio" class="portfolio">
+            <div class="head">
+                <h4>Portfolio</h4>
+            </div>
+            <div class="swiper">
+                <div class="row d-flex justify-content-center align-items-center py-5">
+                    <div class="swiper-wrapper position-relative">
+                        <div class="col-lg-4 mt-5 px-5" data-aos="fade-up" data-aos-delay="600">
+                            <div class="box-portfolio swiper-slide">
+                                <div class="info d-flex py-3" style="margin-left: 46px;">
+                                    <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
+                                        alt="Avatar" />
+                                    <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
+                                </div>
+                                <div class="img-portfolio">
+                                    <img src="assets/img/robt.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="title mt-5"><a href="#">Robot</a></h3>
+                                <a class="portfolio-btn" href="#">Lihat Profil</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-5 px-5 active" data-aos="fade-up" data-aos-delay="600">
+                            <div class="box-portfolio swiper-slide">
+                                <div class="info d-flex py-3" style="margin-left: 46px;">
+                                    <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
+                                        alt="Avatar" />
+                                    <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
+                                </div>
+                                <div class="img-portfolio">
+                                    <img src="assets/img/robt.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="title mt-5"><a href="#">Robot</a></h3>
+                                <a class="portfolio-btn" href="#">Lihat Profil</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-5 px-5" data-aos="fade-up" data-aos-delay="600">
+                            <div class="box-portfolio swiper-slide">
+                                <div class="info d-flex py-3" style="margin-left: 46px;">
+                                    <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
+                                        alt="Avatar" />
+                                    <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
+                                </div>
+                                <div class="img-portfolio">
+                                    <img src="assets/img/robt.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="title mt-5"><a href="#">Robot</a></h3>
+                                <a class="portfolio-btn" href="#">Lihat Profil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section> -->
+
+
         <section id="portfolio" class="portfolio">
             <div class="head">
                 <h4>Portfolio</h4>
             </div>
             <div class="swiper">
                 <div class="row d-flex justify-content-center align-items-center py-5">
-                    <div class="swiper-wrapper">
-                        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-delay="600">
+                    <div class="swiper-wrapper justify-content-center">
+                        <div class="col-lg-4 mt-5 px-5" data-aos="fade-up" data-aos-delay="600">
                             <div class="box-portfolio swiper-slide">
                                 <div class="info d-flex py-3" style="margin-left: 46px;">
                                     <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
@@ -89,23 +151,27 @@
                                 <a class="portfolio-btn" href="#">Lihat Profil</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 mt-5 pb-3 active" data-aos="fade-up" data-aos-delay="600">
-                            <div class="box-portfolio swiper-slide">
-                                <div class="info d-flex py-3" style="margin-left: 46px;">
-                                    <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
-                                        alt="Avatar" />
-                                    <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
-                                </div>
-                                <div class="img-portfolio">
-                                    <img src="assets/img/robt.jpg" class="img-fluid" alt="">
-                                </div>
-                                <h3 class="title mt-5"><a href="#">Robot</a></h3>
-                                <a class="portfolio-btn" href="#">Lihat Profil</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-delay="600">
-                            <div class="box-portfolio swiper-slide">
+
+                        <div class="col-lg-4 mt-5 px-5 active d-flex justify-content-center align-items-center"
+                            data-aos="
+                            fade-up" data-aos-delay="600">
+                            <div class="box-portfolio swiper-slide active">
                                 <div class=" info d-flex py-3" style="margin-left: 46px;">
+                                    <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
+                                        alt="Avatar" />
+                                    <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
+                                </div>
+                                <div class="img-portfolio">
+                                    <img src="assets/img/robt.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3 class="title mt-5"><a href="#">Robot</a></h3>
+                                <a class="portfolio-btn" href="#">Lihat Profil</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-5 px-5" data-aos="fade-up" data-aos-delay="600">
+                            <div class="box-portfolio swiper-slide">
+                                <div class="info d-flex py-3" style="margin-left: 46px;">
                                     <img src="assets/img/avatar.jpg" class="rounded-circle" style="width: 60px;"
                                         alt="Avatar" />
                                     <h3 class="align-items-center justify-content-center d-flex ms-2">Tux</h3>
@@ -123,19 +189,20 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </section>
+
         <section id="partner" class="partner">
             <div class="head">
                 <h4>Partner</h4>
             </div>
             <div class="container">
                 <div class="row g-5 py-5">
-                    <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="col-lg-4 d-flex justify-content-center mt-0">
                         <img class="img-fluid" src="assets/img/partner1.png" alt="monk-studio">
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="col-lg-4 d-flex justify-content-center mt-0">
                         <img class="img-fluid" src="assets/img/partner2.png" alt="les-copaque">
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="col-lg-4 d-flex justify-content-center mt-0">
                         <img class="img-fluid" src="assets/img/partner3.png" alt="fly-studio">
                     </div>
                 </div>
@@ -148,7 +215,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-6 col-md-8">
                         <div class="footer-info d-flex">
                             <img class="" src="assets/img/logosm.png" alt="">
                             <h3>SMK SWASTA SMART</h3>
@@ -164,10 +231,10 @@
                     </div>
                 </div>
                 <div class="row py-5">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 col-md-6 col-sm-8">
                         <p class="ms-5 fs-6">© 2023 All Rights Reserved</p>
                     </div>
-                    <div class="col-lg-7 d-flex justify-content-end">
+                    <div class="col-lg-7 col-md-6 d-flex justify-content-end col-sm-4">
                         <div class="social-links">
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -209,16 +276,16 @@
         };
 
         const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // Navigation arrows
+            slidesPerView: 1, // Hanya satu slide yang terlihat
+            centeredSlides: true, // Slide yang terlihat akan diatur di tengah
+            loop: true, // Mengaktifkan loop jika diperlukan
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
         });
+
+
     });
 </script>
 <script src="assets/vendor/aos/aos.js"></script>
