@@ -224,7 +224,7 @@ svg {
     font-size: 3.3em;
     line-height: 80px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 1000;
     color: #252B42;
     font-family: var(--font-primary);
 }
@@ -276,12 +276,17 @@ svg {
 } */
 
 @media (max-width: 991px) {
+
+    .hero {
+        height: auto;
+    }
+
     .hero .hero-img {
         text-align: center;
     }
 
     .hero .hero-img img {
-        width: 50%;
+        width: 60%;
         text-align: center;
         margin-left: 5rem !important;
     }
@@ -291,7 +296,7 @@ svg {
         font-size: 2em;
         line-height: 48px;
         font-style: normal;
-        font-weight: bolder;
+        font-weight: 1000;
         color: #252B42;
         font-family: var(--font-primary);
         text-align: center;
@@ -342,12 +347,13 @@ svg {
 }
 
 @media (max-width:767px) {
+
     .hero .hero-img {
         text-align: center;
     }
 
     .hero .hero-img img {
-        width: 60%;
+        width: 80%;
         text-align: center;
         margin: 24px auto 0 auto !important;
     }
@@ -357,7 +363,7 @@ svg {
         font-size: 2.5em;
         line-height: 45px;
         font-style: normal;
-        font-weight: bolder;
+        font-weight: 1000;
         color: #252B42;
         font-family: var(--font-primary);
         text-align: center;
@@ -388,6 +394,7 @@ svg {
         border: 1px solid #f2f2f2;
         transition: all ease-in-out 0.3s;
         background: var(--primary-color);
+        font-size: 12px;
     }
 
     .hero .btn-get-started:hover {
@@ -404,6 +411,7 @@ svg {
         border: 1px solid var(--primary-color);
         transition: all ease-in-out 0.3s;
         background: #ffff;
+        font-size: 12px;
     }
 }
 
@@ -470,7 +478,7 @@ svg {
         position: relative;
         z-index: 3;
         border-radius: 15px;
-        padding-bottom: 14px;
+        padding-bottom: 40px;
         width: 90% !important;
     }
 
@@ -520,8 +528,8 @@ svg {
 
     .about .content p {
         color: var(--color-secondary);
-        font-weight: 600;
-        font-size: 21px;
+        font-weight: 800;
+        font-size: large;
         white-space: normal;
         left: 14px;
         padding-top: 26px
@@ -562,7 +570,7 @@ svg {
         position: relative;
         z-index: 3;
         border-radius: 15px;
-        padding-bottom: 14px;
+        padding-bottom: 40px;
         width: 80%;
     }
 }
@@ -774,6 +782,14 @@ svg {
     background: var(--primary-color);
     bottom: -8px;
     left: 3px;
+}
+
+@media (max-width: 992px) {
+
+    .partner .col-lg-4 {
+        margin: -10px 0 -35px 0;
+    }
+
 }
 
 .footer {
